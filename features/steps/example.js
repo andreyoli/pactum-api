@@ -1,12 +1,22 @@
 const pactum = require('pactum');
-const {settings} = require('pactum')
-const { Given, When, Then, Before } = require('@cucumber/cucumber');
+const { Given, When, Then, BeforeAll, AfterAll, Before } = require('@cucumber/cucumber');
 
-let spec = pactum.spec();
+const pjr = require('pactum-json-reporter');
+const { reporter } = require('pactum');
 
-settings.setLogLevel('INFO')
+// global before block
+BeforeAll(() => {
+  reporter.add(pjr);
+});
 
-Before(() => { spec = pactum.spec(); });
+// global after block
+AfterAll(() => {
+  return reporter.end();
+});
+
+Before(() => {
+  spec = pactum.spec();
+});
 
 Given('I make a GET request to {string}', function (url) {
   spec.get(url);

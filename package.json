@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^8.0.0-rc.1",
-    "pactum": "^3.1.0"
+    "pactum": "^3.1.0",
+    "pactum-json-reporter": "^1.0.2"
   }
 }

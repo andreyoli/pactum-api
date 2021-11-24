@@ -497,6 +497,11 @@ openapi-fuzzer-core@^1.0.6:
   dependencies:
     klona "^2.0.4"
 
+pactum-json-reporter@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/pactum-json-reporter/-/pactum-json-reporter-1.0.2.tgz#165ca84ccdd19befdb669757f8a5a66771a3bcd4"
+  integrity sha512-YvD0tVw2YqZfcAe7QdNhjavoW81UTe0TBnFChZZcP0o1/yuCOUJG7IgWeXOcOeIQScWYO+dn2HXte3MCDFk2RQ==
+
 pactum-matchers@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/pactum-matchers/-/pactum-matchers-1.0.4.tgz#f541071c4a3e23f5ba6b6512dd7bdc58c6b4962b"

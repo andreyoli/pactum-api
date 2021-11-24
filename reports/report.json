@@ -1,0 +1,19 @@
+{
+  "tests": [],
+  "steps": [],
+  "specs": [
+    {
+      "id": "xymqk",
+      "request": {
+        "url": "http://httpbin.org/status/418",
+        "method": "GET",
+        "path": "/status/418"
+      },
+      "response": {
+        "statusCode": 418,
+        "responseTime": 348
+      },
+      "recorded": {}
+    }
+  ]
+}
