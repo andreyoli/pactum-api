@@ -1,3 +1,4 @@
+@Example
 Feature: Abelhas'
 
 Scenario: Check Tea Pot
